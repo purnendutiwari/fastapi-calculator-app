@@ -1,0 +1,74 @@
+# ---------------------------------------
+# Python
+# ---------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pyo
+*.so
+*.egg-info/
+*.egg
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+
+# ---------------------------------------
+# Virtual Environment
+# ---------------------------------------
+venv/
+.venv/
+env/
+ENV/
+
+# ---------------------------------------
+# FastAPI / Uvicorn
+# ---------------------------------------
+# (nothing specific needed unless you generate logs)
+*.log
+
+# ---------------------------------------
+# Pytest
+# ---------------------------------------
+.cache/
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# ---------------------------------------
+# IDE / Editor directories
+# ---------------------------------------
+
+# VS Code
+.vscode/
+
+# JetBrains (PyCharm)
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# ---------------------------------------
+# OS-generated files
+# ---------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------
+# Python packaging
+# ---------------------------------------
+build/
+dist/
+*.egg-info/
+MANIFEST
